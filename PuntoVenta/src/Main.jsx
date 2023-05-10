@@ -13,10 +13,10 @@ const Main = () => {
     return (
         <NavigationContainer>
             <Stack.Navigator>
-                <Stack.Screen name="login" component={Login} />
-                <Stack.Screen name="registrarse" component={Registrarse} />
-                <Stack.Screen name="menu" component={Menu} />
-                <Stack.Screen name="usuarios" component={Usuarios} />
+                <Stack.Screen name="login" component={Login}  options={{headerShown:false}}/>
+                <Stack.Screen name="registrarse" component={Registrarse}options={{headerShown:false}}/>
+                <Stack.Screen name="menu" component={Menu} options={{headerShown:false}}/>
+                <Stack.Screen name="usuarios" component={Usuarios} options={{headerShown:false}}/>
             </Stack.Navigator>
         </NavigationContainer>
     )
